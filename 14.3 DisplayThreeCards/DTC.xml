@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\ASUS\OneDrive\Desktop\DTC1.jar</jar>
+  <outfile>C:\Users\ASUS\OneDrive\Desktop\DTC.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\ASUS\OneDrive\Desktop\469633.ico</icon>
+  <classPath>
+    <mainClass>application.DisplayThreeCards</mainClass>
+    <cp>javafx.base.jar</cp>
+    <cp>javafx.controls.jar</cp>
+    <cp>javafx.fxml.jar</cp>
+    <cp>javafx.graphics.jar</cp>
+    <cp>javafx.media.jar</cp>
+    <cp>javafx.swing.jar</cp>
+    <cp>javafx.web.jar</cp>
+    <cp>javafx-swt.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jdk-23</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+    <opt>--module-path &quot;C:\Users\ASUS\JAVA\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.graphics</opt>
+  </jre>
+</launch4jConfig>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\ASUS\OneDrive\Desktop\TicTacToe.jar</jar>
+  <outfile>C:\Users\ASUS\OneDrive\Desktop\TicTacToe.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\ASUS\OneDrive\Desktop\tic-tac-toe.ico</icon>
+  <classPath>
+    <mainClass>application.TicTacToe</mainClass>
+    <cp>javafx.base.jar</cp>
+    <cp>javafx.controls.jar</cp>
+    <cp>javafx.fxml.jar</cp>
+    <cp>javafx.graphics.jar</cp>
+    <cp>javafx.media.jar</cp>
+    <cp>javafx.swing.jar</cp>
+    <cp>javafx.web.jar</cp>
+    <cp>javafx-swt.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jdk-23</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+    <opt>--module-path &quot;C:\Users\ASUS\JAVA\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.graphics</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>Initial release with PvP and AI modes.</txtFileVersion>
+    <fileDescription>A simple yet fun Tic Tac Toe game.</fileDescription>
+    <copyright>© 2024 Prince.</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>Modern UI, PvP and PvC, neon effects.</txtProductVersion>
+    <productName>Tic Tac Toe by Prince.</productName>
+    <companyName>Developed by Prince.</companyName>
+    <internalName>Tic Tac Toe.</internalName>
+    <originalFilename>TicTacToe.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

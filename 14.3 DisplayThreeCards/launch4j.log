@@ -1,0 +1,27 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\ASUS\OneDrive\Desktop\DTC.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\ASUS\OneDrive\Desktop\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.017.000
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk-23
+Check launcher:	C:\Program Files\Java\jdk-23\bin\javaw.exe (OK)
+Version string: 1.023.000_001 / 64-Bit (OK)
+Main class:	application.DisplayThreeCards
+Add classpath:	javafx.base.jar
+Add classpath:	javafx.controls.jar
+Add classpath:	javafx.fxml.jar
+Add classpath:	javafx.graphics.jar
+Add classpath:	javafx.media.jar
+Add classpath:	javafx.swing.jar
+Add classpath:	javafx.web.jar
+Add classpath:	javafx-swt.jar
+Launcher:	C:\Program Files\Java\jdk-23\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ASUS\JAVA\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics -classpath "C:\Users\ASUS\OneDrive\Desktop\DTC.exe;javafx.base.jar;javafx.controls.jar;javafx.fxml.jar;javafx.graphics.jar;javafx.media.jar;javafx.swing.jar;javafx.web.jar;javafx-swt.jar" application.DisplayThreeCards
+Args length:	332/32768 chars
+Exit code:	0
