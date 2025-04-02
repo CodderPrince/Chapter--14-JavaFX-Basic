@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="application.controllers.MainMenuController">
+    <Label text="RaceTrack Madness" style="-fx-font-size: 36; -fx-font-weight: bold;" />
+    <Button text="Play Game" fx:id="playButton" onAction="#handlePlayGame" />
+    <Button text="Settings" fx:id="settingsButton" onAction="#handleSettings" />
+    <Button text="Exit" fx:id="exitButton" onAction="#handleExit" />
+</VBox>
